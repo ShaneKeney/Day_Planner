@@ -1,9 +1,13 @@
 var timeBlockContainer = $("#timeBlockContainer");
 var timeBlockTemplate = $(".timeBlock").clone();
+var todayDateDisplay = $("body").find("#datePlaceholder");
 
 $(document).ready(() => {
     //remove template html (will dyn create in a little)
     $(".timeBlock").remove();
+
+    let dt = moment();
+    todayDateDisplay.text(dt.format("dddd, MMMM Do"));
 
     //create all timeSlots dynamically to keep html clean
     createTimeBlocks();
