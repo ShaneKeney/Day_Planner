@@ -72,3 +72,24 @@
     border-left-width: 0.4em;
     border-left-color: rgb(91, 156, 91);
 }
+
+@media screen and (max-width: 585px) {
+    body {
+      font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+      font-size: 0.5em;
+    }
+    h1 {
+        font-size: 3.0em;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    body {
+      font-size: 0.2em;
+    }
+}
