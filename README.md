@@ -2,7 +2,8 @@
 Day Planner website for current day task planning
 
 ## Synopsis
-    Plan for your day using the allotted time blocks corresponding to typical
+
+Plan for your day using the allotted time blocks corresponding to typical
 business workday (9AM - 5PM).  After inputting info into the appropriate block be sure
 to save using the side button with the lock icon.  This will save the inputted tasks for
 that block into local storage and will re-populate even when page is refreshed.  The following colors of the blocks correspond accordingly:
