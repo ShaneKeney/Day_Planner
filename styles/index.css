@@ -49,12 +49,13 @@
     border-bottom-width: 0.0em;
 
     font-family: 'Montserrat';
+    font-size: 0.8em;
 }
 
 .saveButton {
     border-style: solid;
 
-    border-left-width: 0.2em;
+    border-left-width: 0.4em;
     border-left-color: darkgray;
 
     border-top-right-radius: 15px;
