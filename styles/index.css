@@ -1,0 +1,25 @@
+.test {
+    background-color: yellow;
+}
+
+.test2 {
+    background-color: red;
+}
+
+.header {
+    font-family: 'Montserrat-Medium';
+}
+
+.desc {
+    text-align: center;
+}
+
+.bottom-border {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+}
+
+.text-align-center {
+    text-align: center;
+}
