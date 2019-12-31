@@ -31,6 +31,16 @@ function createTimeBlocks() {
         createTimeBlock.find(".toDoTextArea").attr("id", timeTextInputID);
         createTimeBlock.find(".saveButton").attr("id", timeButtonID);
 
+        //use moment.js and make inputs proper colors
+        let dt = moment();
+        let hourString = dt.format("HH");
+       
+        if(parseInt(hourString) < i) {
+            createTimeBlock.find(".toDoTextArea").addClass("hoursToCome");
+        } else if(parseInt(hourString) === i) {
+            createTimeBlock.find(".toDoTextArea").addClass("currentHour");
+        }
+
         //pull from localStorage current time plans
         createTimeBlock.find(`#${timeTextInputID}`).val(localStorage.getItem(timeTextInputID));
 
