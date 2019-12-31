@@ -23,3 +23,44 @@
 .text-align-center {
     text-align: center;
 }
+
+.timeSlotDesc {
+    border-top-color: lightgray;
+    border-top-style: solid;
+    border-top-width: 0.2em;
+
+    border-right-color: rgb(146, 146, 146);
+    border-right-style: solid;
+    border-right-width: 0.3em;
+
+    font-family: 'Montserrat';
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.toDoTextArea {
+    background-color: lightgray;
+
+    border-right-width: 0.0em;
+    border-left-width: 0.0em;
+    border-top-width: 0.0em;
+    border-bottom-width: 0.0em;
+
+    font-family: 'Montserrat';
+}
+
+.saveButton {
+    border-style: solid;
+
+    border-left-width: 0.2em;
+    border-left-color: darkgray;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.saveButton:hover {
+    /* TODO: make color whatever button color is, maybe a bit darker */
+}
