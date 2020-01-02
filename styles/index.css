@@ -74,16 +74,16 @@
 }
 
 @media screen and (max-width: 585px) {
-    body {
-      font-size: 0.8em;
+    .timeSlotDesc {
+        font-size: 0.8em;
+    }
+    h1 {
+      font-size: 2.0em;
     }
 }
 
 @media screen and (max-width: 520px) {
     .timeSlotDesc {
       font-size: 0.5em;
-    }
-    h1 {
-        font-size: 5.0em;
     }
 }
